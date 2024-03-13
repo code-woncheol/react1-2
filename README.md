@@ -3,7 +3,7 @@
 ## 3월 20일 강의
 내용2
 
-## 3월 13일 강의
+<details><summary>3월 13일 강의</summary>
 
 # h1
 ## h2
@@ -45,4 +45,5 @@ let b = 2;
 <summary><strong>접기</strong>/펼치기</summary>
 접기/<strong>펼치기<strong>
 <!-- ![](./sibadog.jpg) 이미지 -->
+</details>
 </details>
