@@ -9,7 +9,6 @@
             &nbsp;&nbsp;&nbsp;&nbsp;2. 웹사이트의 뼈대를 구성하는 태그들<br>
             &nbsp;&nbsp;&nbsp;&nbsp;3. SPA(Single Page Application)<br>
         </details>
-        </details>
         <details>
             <summary>자바스크립트</summary>
             &nbsp;&nbsp;&nbsp;&nbsp;1. 자바스크립트란 무엇인가?<br>
@@ -32,6 +31,8 @@
             
             
 </details>
+        </details>
+        
 </details></details>
 <details><summary>3월 7일 강의</summary>
 
