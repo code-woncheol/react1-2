@@ -1,9 +1,11 @@
 # 봉원철 201930217
 
-## 3월 20일 강의
-내용2
 
 <details><summary>3월 13일 강의</summary>
+
+</details>
+
+<details><summary>3월 7일 강의</summary>
 
 # h1
 ## h2
