@@ -10,7 +10,6 @@
             3. SPA(Single Page Application)<br>
         </details>
 </details>
-![](./image/MPAvsSPA.png)
 <details><summary>3월 7일 강의</summary>
 
 # h1
