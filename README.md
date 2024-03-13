@@ -8,8 +8,9 @@
             1. html이란 무엇인가?<br>
             2. 웹사이트의 뼈대를 구성하는 태그들<br>
             3. SPA(Single Page Application)<br>
-            ![MPAvsSPA](/image/MPAvsSPA.png)
-    </details>
+            
+    ![](./image/MPAvsSPA.png)
+</details>
 </details>
 
 <details><summary>3월 7일 강의</summary>
