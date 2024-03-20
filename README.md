@@ -1,6 +1,8 @@
 # 봉원철 201930217
 
-
+<details>
+    <summary>3월 20일 강의</summary>
+</details>
 <details>
     <summary>3월 13일 강의</summary>
         <details>
@@ -8,6 +10,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;1. html이란 무엇인가?<br>
             &nbsp;&nbsp;&nbsp;&nbsp;2. 웹사이트의 뼈대를 구성하는 태그들<br>
             &nbsp;&nbsp;&nbsp;&nbsp;3. SPA(Single Page Application)<br>
+            ![](./image/MPAvsSPA.png)
         </details>
         <details>
             <summary>자바스크립트</summary>
