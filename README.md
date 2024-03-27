@@ -1,5 +1,6 @@
 # 봉원철 201930217
 
+<<<<<<< HEAD
 <details><summary>3월 27일 강의</summary>
     <h2>JSX의 역할</h2>
     jsx는 내부적으로 XML/HTML 코드를 자바스크립트로 변환합니다.<br>
@@ -12,6 +13,9 @@
     Injection Attack이라 불리는 해킹 방법을 방어함으로써 보안에 강합니다.<br>
     
 </details><br>
+=======
+!!! 다음 주(27일) 오면 해야할 것 : 컴퓨터 변경했기 때문에 vs code 익스텐션 동기화 !!!
+>>>>>>> ec31831d13649008d33a356c54b3fdf7c99e6464
 <details>
     <summary>3월 20일 강의</summary>
     <h2>1.리액트의 정의</h2><br>
