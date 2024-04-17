@@ -1,5 +1,84 @@
 # 봉원철 201930217
 
+
+<details>
+<summary>4월 10일 강의</summary>
+
+훅이란?
+- 훅(Hook)은 React의 새로운 기능 중 하나로, 함수 컴포넌트에서 상태(state) 및 다른 React 기능을 사용할 수 있게 해줍니다.
+
+useState
+- useState 훅은 React 컴포넌트에서 상태를 추가할 수 있도록 해주는 특별한 함수입니다. 이를 통해 함수 컴포넌트에서도 상태를 관리할 수 있게 됩니다.
+
+```jsx
+import React, { useState } from 'react';
+
+function ExampleComponent() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  );
+}
+
+export default ExampleComponent;
+```
+
+useEffect
+- useEffect 훅은 React 컴포넌트가 렌더링될 때마다 특정 작업을 수행하도록 설정할 수 있습니다. 이를 통해 데이터를 가져오거나 구독을 설정하는 등의 작업을 수행할 수 있습니다.
+
+```jsx
+import React, { useState, useEffect } from 'react';
+
+function ExampleComponent() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  }, [count]);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  );
+}
+
+export default ExampleComponent;
+
+```
+
+</details><br>
+
+
+<details><summary>4월 10일 강의</summary>
+공휴일 수업 X
+</details><br>
+
+<details><summary>4월 3일 강의</summary>
+
+<h3>함수형 컴포넌트</h3>
+함수형 컴포넌트는 React에서 컴포넌트를 정의하는 데 사용되는 하나의 방법입니다. 이는 함수로 구성되어 있으며, 주어진 입력(props)에 대해 UI를 반환합니다. 함수형 컴포넌트는 간단하고 가독성이 높으며, React Hooks를 이용하여 상태 관리와 생명주기를 다룰 수 있습니다.
+
+```
+
+```
+
+ 
+<h3>클래스형 컴포넌트</h3>
+클래스형 컴포넌트는 React의 초기 버전에서 사용되었던 컴포넌트 정의 방식입니다. ES6 클래스를 이용하여 정의되며, React.Component 클래스를 상속받습니다. 클래스형 컴포넌트는 state와 생명주기 메서드를 직접 다룰 수 있습니다. 하지만 클래스형 컴포넌
+트는 코드가 복잡해질 수 있고, 클래스 바인딩과 메서드 정의 등의 추가 작업이 필요합니다.
+
+<h3>컴포넌트 합성</h3>
+- 컴포넌트 합성은 여러 컴포넌트를 합쳐서 하나의 컴포넌트를 만드는 것입니다.
+<h3>컴포넌트 추출</h3>
+- 복잡한 컴포넌트를 쪼개서 여러 개의 컴포넌트로 나눌 수도 있습니다.
+</details><br>
+
 <details><summary>3월 27일 강의</summary>
     <h2>JSX의 역할</h2>
     jsx는 내부적으로 XML/HTML 코드를 자바스크립트로 변환합니다.<br>
@@ -51,8 +130,8 @@ porps는 컴포넌트에 전달 할 다양한 정보를 담고 있는 자바스�
 
 </details><br>
 
-<deta ils>
-    <s ummary>3월 20일 강의</summary>
+<details>
+    <summary>3월 20일 강의</summary>
     <h2>1.리액트의 정의</h2><br>
     'Th e library for web and native user interfaces'<br>
     사용자 인터페이스를 만들기 위한 자바스크립트 라이브러리<br><br>
