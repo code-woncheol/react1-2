@@ -2,7 +2,7 @@
 
 
 <details>
-<summary>4월 10일 강의</summary>
+<summary>4월 17일 강의</summary>
 
 훅이란?
 - 훅(Hook)은 React의 새로운 기능 중 하나로, 함수 컴포넌트에서 상태(state) 및 다른 React 기능을 사용할 수 있게 해줍니다.
