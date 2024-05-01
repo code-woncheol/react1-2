@@ -3,7 +3,7 @@
 <summary>5월 1일 강의(보강)</summary>
 </details>
 4월24일 중간 평가 깃허브 연결확인용 commit
-<br>
+<br><br>
 <details>
 <summary>4월 17일 강의</summary>
 
