@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Midterm from './components/Midterm'
-import UserStatus from './components/UserSatus';
-import UserListItem from './components/UserListItem';
+import UseCounter from './components/UseCounter.jsx';
+import Accommodate from './components/Accommodate.jsx';
+
 function App() {
   return (
     <div>
       {/* <Midterm /> */}
-      <UserStatus />
-      <UserListItem />
+     
+      {/* <UseCounter/> */}
+      <Accommodate/>
+
     </div>
   );
 }

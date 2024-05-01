@@ -1,6 +1,14 @@
 # 봉원철 201930217
 <details>
 <summary>5월 1일 강의(보강)</summary>
+
+useState:
+useState는 React에서 상태(state)를 관리하는 Hook 중 하나입니다. 이 Hook은 함수 컴포넌트에서 상태를 추가할 수 있게 해주고, 해당 상태의 값을 변경할 수 있는 함수를 반환합니다. 
+<br>
+useEffect:
+useEffect는 React 컴포넌트의 생명주기에 특정한 동작을 수행하도록 하는 Hook입니다. 컴포넌트가 렌더링될 때마다 실행되거나, 특정 상태나 prop이 변경될 때 실행되도록 설정할 수 있습니다. 이를 통해 데이터 fetching, 구독 설정, 수동으로 수행해야 하는 리소스 정리 등의 작업을 수행할 수 있습니다. 
+<br>
+
 </details>
 4월24일 중간 평가 깃허브 연결확인용 commit
 <br><br>
