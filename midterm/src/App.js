@@ -3,6 +3,7 @@ import './App.css';
 import Midterm from './components/Midterm'
 import UseCounter from './components/UseCounter.jsx';
 import Accommodate from './components/Accommodate.jsx';
+import Toggle from './components/Toggle.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      
       {/* <UseCounter/> */}
       <Accommodate/>
+      <Toggle/>
 
     </div>
   );
