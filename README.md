@@ -2,11 +2,18 @@
 <details>
 <summary>5월 1일 강의(보강)</summary>
 
-useState:
-useState는 React에서 상태(state)를 관리하는 Hook 중 하나입니다. 이 Hook은 함수 컴포넌트에서 상태를 추가할 수 있게 해주고, 해당 상태의 값을 변경할 수 있는 함수를 반환합니다. 
-<br>
-useEffect:
-useEffect는 React 컴포넌트의 생명주기에 특정한 동작을 수행하도록 하는 Hook입니다. 컴포넌트가 렌더링될 때마다 실행되거나, 특정 상태나 prop이 변경될 때 실행되도록 설정할 수 있습니다. 이를 통해 데이터 fetching, 구독 설정, 수동으로 수행해야 하는 리소스 정리 등의 작업을 수행할 수 있습니다. 
+
+1. useState:
+- useState는 React에서 상태를 관리하기 위한 Hook입니다.
+- 함수 컴포넌트 내에서 상태를 추가할 수 있게 해줍니다.
+- 일반적으로 이전 클래스 기반 컴포넌트에서의 this.state와 this.setState에 해당합니다.
+- useState는 배열을 반환하며, 첫 번째 요소는 상태 값이고, 두 번째 요소는 상태를 업데이트하는 함수입니다.
+
+2. useEffect:
+- useEffect는 React 컴포넌트가 렌더링될 때마다 특정 작업을 수행하도록 설정하는 Hook입니다.
+- 주로 데이터 가져오기, 구독 설정, 수동으로 React 컴포넌트를 업데이트하는 등의 작업을 처리할 때 사용됩니다.
+- 클래스 컴포넌트의 라이프사이클 메서드인 componentDidMount, componentDidUpdate, componentWillUnmount 등을 대체합니다.
+- useEffect의 콜백 함수는 컴포넌트가 렌더링될 때마다 실행되며, 선택적으로 종속성 배열을 지정하여 특정 값이 변경될 때만 실행되도록 제어할 수 있습니다.
 <br>
 
 </details>
