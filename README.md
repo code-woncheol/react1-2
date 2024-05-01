@@ -14,6 +14,20 @@
 - 주로 데이터 가져오기, 구독 설정, 수동으로 React 컴포넌트를 업데이트하는 등의 작업을 처리할 때 사용됩니다.
 - 클래스 컴포넌트의 라이프사이클 메서드인 componentDidMount, componentDidUpdate, componentWillUnmount 등을 대체합니다.
 - useEffect의 콜백 함수는 컴포넌트가 렌더링될 때마다 실행되며, 선택적으로 종속성 배열을 지정하여 특정 값이 변경될 때만 실행되도록 제어할 수 있습니다.
+
+3. 이벤트 핸들링:
+- DOM에서 클릭 이벤트를 처리하는 예제 코드
+```jsx
+<button onclick="activate()">
+  Activate
+</button>
+```
+- React에서 클릭 이벤트를 처리하는 예제 코드
+```jsx
+<button onClick={activate}>
+  Activate
+</button>
+```
 <br>
 
 </details>
