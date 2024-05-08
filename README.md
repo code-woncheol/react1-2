@@ -1,5 +1,49 @@
 # 봉원철 201930217
+<br>
 <details>
+<summary>5월 8일 강의</summary>
+Arguments 전달
+
+React 컴포넌트에는 `props`라고 불리는 속성을 통해 인자를 전달합니다. 이를 통해 컴포넌트가 데이터를 받고 그에 따라 동작하도록 할 수 있습니다.
+
+```jsx
+const MyComponent = (props) => {
+  return <div>{props.name}</div>;
+}
+
+ReactDOM.render(<MyComponent name="John" />, document.getElementById('root'));
+```
+
+조건부 렌더링
+
+React에서는 조건에 따라 다른 엘리먼트를 렌더링할 수 있습니다. 이를 통해 동적으로 UI를 제어할 수 있습니다.
+
+```jsx
+const MyComponent = (props) => {
+  if (props.isLoggedIn) {
+    return <div>Welcome, {props.username}!</div>;
+  } else {
+    return <div>Please log in.</div>;
+  }
+}
+
+ReactDOM.render(<MyComponent isLoggedIn={true} username="John" />, document.getElementById('root'));
+
+```
+엘리먼트 변수
+
+React에서는 JSX를 사용하여 엘리먼트를 변수에 할당할 수 있습니다. 이를 통해 코드를 더 간결하게 만들고 가독성을 높일 수 있습니다.
+
+```js
+const title = <h1>Hello, world!</h1>;
+
+ReactDOM.render(title, document.getElementById('root'));
+```
+</details>
+
+<br>
+<details>
+
 <summary>5월 1일 강의(보강)</summary>
 
 
@@ -30,7 +74,7 @@
 ```
 <br>
 
-</details>
+</details><br>
 4월24일 중간 평가 깃허브 연결확인용 commit
 <br><br>
 <details>
